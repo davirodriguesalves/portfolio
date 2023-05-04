@@ -122,6 +122,12 @@ body{
      border: 2px solid var(--cor-terciaria);
 }
 
+
+.perfil{
+     border-radius: 20%;
+     width: 40%;
+}
+
 .apresentacao__links__link:hover{
      background-color: var(--cor-hover);
 }
@@ -136,6 +142,23 @@ body{
      font-size: 1.5rem;
 }
 
+
+@media(max-width: 447px){
+
+     .cabecalho__menu__link{
+          font-size: 1.2rem;
+     }
+
+     .apresentacao__conteudo__texto{
+          font-size: 1.1rem;
+          padding: 2%;
+     }
+
+     .apresentacao__conteudo__about{
+          font-size: 1.1rem;
+          padding: 2%;
+     }
+}
 
 @media(max-width: 1100px){
 
@@ -156,7 +179,4 @@ body{
      }
 }
 
-.perfil{
-     border-radius: 20%;
-     width: 40%;
-}
+
